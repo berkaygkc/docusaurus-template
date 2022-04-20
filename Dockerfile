@@ -8,4 +8,6 @@ COPY ./website /app/website
 RUN npm install
 RUN npm run build
 
+USER 1000
+
 CMD ["npm", "run", "serve"]
