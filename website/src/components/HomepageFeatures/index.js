@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Kolay Kullanım',
+    Svg: require('@site/static/img/easy-usage.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Sadece bir kaç tık ile tüm firmalarınız defterlerini yetkili e-imza/mali mührü ile oluşturup gönderin.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Hızlı İşlemler',
+    Svg: require('@site/static/img/fast-usage.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Tüm işlemler hızlı ve güvenli bir şekilde gerçekleşir. İşlemlerinizin durumunu anlık olarak takip edebilirsiniz.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Kolay Silme',
+    Svg: require('@site/static/img/easy-delete.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Defterlerinizi tek tık ile hem muhasebe programından, hem de Gelir İdaresi Başkanlığından silebilirsiniz.
       </>
     ),
   },
